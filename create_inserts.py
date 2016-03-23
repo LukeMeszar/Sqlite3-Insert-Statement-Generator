@@ -12,8 +12,6 @@ def create_inserts():
         col_name = raw_input('Enter a column name ')
         column_names.append(col_name)
 
-
-
     columns = [[] for i in range(number_columns)]
 
     line_counter = 0
